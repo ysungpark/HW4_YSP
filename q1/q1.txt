@@ -1,0 +1,15 @@
+git commit -m "A"
+git checkout -b branch1
+git commit -m "B"
+git checkout master
+git checkout -b branch2
+git commit -m "C"
+git checkout branch1
+git checkout -b branch4
+git commit -m "E"
+git checkout branch2
+git merge branch1
+git merge branch4
+git commit -m "F"
+
+
